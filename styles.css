@@ -1,0 +1,19 @@
+
+    body { 
+        font-family: Arial; 
+        text-align: center; 
+        padding: 50px; 
+        background-image: url('{{ url_for("static", filename="crops.jpg") }}');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+    .login { 
+        max-width: 500px; 
+        margin: 0 auto; 
+        background: rgba(255,255,255,0.95);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    /* ... rest of your styles ... */
